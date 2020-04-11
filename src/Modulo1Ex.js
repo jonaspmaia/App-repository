@@ -46,7 +46,6 @@ console.log(multiplicacao);
 const arr = [1, 2, 3, 4, 5];
 const newArr = arr.map(item => item + 10);
 
-
 const usuario = { nome: 'Diego', idade: 23 };
 const mostraIdade = usuario => usuario.idade;
 mostraIdade(usuario);
@@ -58,7 +57,6 @@ mostraUsuario(nome, idade);
 mostraUsuario(nome);
 
 const promise = () => new Promise(resolve, reject => resolve());
-
 
 //Exercicio 4
 const empresa = {
